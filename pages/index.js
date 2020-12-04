@@ -1,5 +1,12 @@
-function Home () {
-    return <div><h2>Test Next.js</h2></div>;
+import Link from 'next/link';
+
+function Home() {
+    return (<div>
+        <h1>Home</h1>
+        <Link href="/sobre">
+            <a>Acessar Sobre</a>
+        </Link>
+    </div>);
 }
 
 export default Home
